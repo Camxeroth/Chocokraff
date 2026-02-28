@@ -1,0 +1,28 @@
+:root {
+    /* Primary */
+    --clr-purple: #4B0082;
+    --clr-pink: #E91E63;
+    --clr-wine: #8B0000;
+
+    /* Secondary */
+    --clr-cocoa: #3E2723;
+    --clr-gold: #C9A227;
+    --clr-white: #F5F5F5;
+
+    /* Gradients */
+    --grad-purple-pink: linear-gradient(135deg, var(--clr-purple), var(--clr-pink));
+    --grad-wine-gold: linear-gradient(135deg, var(--clr-wine), var(--clr-gold));
+    --grad-cocoa-black: linear-gradient(135deg, var(--clr-cocoa), #1a1a1a);
+    --grad-overlay: linear-gradient(to bottom, rgba(26, 26, 26, 0.5), rgba(75, 0, 130, 0.6));
+    --grad-nav-overlay: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(62, 39, 35, 0.8));
+
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-text: 'Outfit', sans-serif;
+
+    /* Shadows & Effects */
+    --shadow-elegant: 0 10px 30px rgba(0, 0, 0, 0.15);
+    --shadow-hover: 0 15px 40px rgba(201, 162, 39, 0.25);
+    --radius-soft: 12px;
+    --transition-smooth: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
